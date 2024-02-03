@@ -320,7 +320,7 @@ if __name__ == "__main__":
     critics = { PLAYER_RED : critic_red, PLAYER_BLUE : critic_blue }
     optimizers = { PLAYER_RED : optimizer_red, PLAYER_BLUE : optimizer_blue }
     
-    load_current_state( actors, critics, optimizers )
+    #load_current_state( actors, critics, optimizers )
     
     ##########################################################################
     random_prob     = { PLAYER_RED : 0.00, PLAYER_BLUE : 0.00 }
